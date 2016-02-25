@@ -1,0 +1,26 @@
+body {
+/*margin: 0;*/
+padding: 0;
+box-sizing: border-box;
+background-color: lightgrey;
+}
+h1 {
+  padding-top: 2 px;
+  text-align: center;
+  font-size: 9em;
+  margin-top: 3%;
+  color: darkgoldenrod;
+  font-weight: 200;
+}
+input {
+align: center;
+font-size:18pt;
+height:38px;
+width:62%;
+margin-left: 25px;
+
+}
+
+li {
+  list-style-type: none;
+}

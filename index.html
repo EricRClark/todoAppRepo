@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+    <meta charset="utf-8">
+    <title>Todo</title>
+  </head>
+  <body>
+<h1>todos</h1>
+<div class="content">
+      <div class="tabTodo">
+        <input type="text" value="" class="edit">
+      </div>
+</div>
+
+    <form action="">
+        <div class="tabTodo">
+            <input type="text" name="getter" placeholder="todo item">
+        </div>
+    </form>
+
+<div class="tabTodo">
+      <button class="active">Active</button>
+      <button class="completed">Completed</button>
+      <button class='toggle'>Toggle</button>
+      <button class="clearCompleted">Clear Completed</button>
+</div>
+  </body>
+  <script charset="utf-8" src="bower_components/underscore/underscore.js">
+    </script>
+    <script charset="utf-8" src="bower_components/jquery/dist/jquery.js">
+    </script>
+    <script charset="utf-8" src="templates.js">
+    </script>
+    <script charset="utf-8" src="app.js">
+    </script>
+</html>
